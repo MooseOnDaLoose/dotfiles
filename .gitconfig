@@ -1,0 +1,17 @@
+[user]
+	email = mmorse@mbaroperations.com
+	name = Mason
+	signingkey = 201CFC75661442EF
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[color]
+	ui = auto
+[init]
+	defaultBranch = main
+[gpg]
+	program = /usr/local/MacGPG2/bin/gpg
+[commit]
+	gpgsign = true
