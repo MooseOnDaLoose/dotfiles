@@ -1,0 +1,27 @@
+# Operating System and Editor Specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build Artifacts
+build/
+dist/
+target/
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Dependencies and Packages
+node_modules/
+vendor/
+venv/
+*.egg-info/
+*.pyc
+
+# Environment Variables
+.env
+.env.*
